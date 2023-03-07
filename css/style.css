@@ -209,10 +209,15 @@ img {
   vertical-align: middle;
   border-style: none;
   height: 250px;
-  margin-bottom: -95px;
+  margin-bottom: -16px;
   display: inline-block;
-  margin-right: 92px;
+  margin-left: 83px;
   /* margin-right: 0px; */
+}
+
+.myway {
+  max-width: 66%;
+  height: auto;
 }
 
 @media (max-width: 460px) {
@@ -223,6 +228,7 @@ img {
 @media (max-width: 1000px) {
   img {
     margin-right: -27px;
+    margin-bottom: 29px;
   }
 }
 
