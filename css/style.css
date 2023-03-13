@@ -205,13 +205,13 @@ h6 {
   max-height: 271px;
 }
 
-img {
+.img12 {
   vertical-align: middle;
   border-style: none;
   height: 250px;
   margin-bottom: -16px;
   display: inline-block;
-  margin-left: 83px;
+  margin-left: 2px;
   /* margin-right: 0px; */
 }
 
@@ -222,12 +222,12 @@ img {
 
 @media (max-width: 460px) {
   img {
-    margin-right: -16px;
+    margin-right: 10px;
   }
 }
 @media (max-width: 1000px) {
   img {
-    margin-right: -27px;
+    margin-right: 10px;
     margin-bottom: 29px;
   }
 }
@@ -548,12 +548,52 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 8px;
   top: 0;
 }
+
+.logo1 .Jiu {
+  position: relative;
+  top: -2px;
+  height: 60px;
+  width: auto;
+  display: inline-block;
+  margin-left: 37px;
+}
+
+.logo1 .Jiu1 {
+  position: relative;
+  top: 2px;
+  height: 72px;
+  width: auto;
+  display: inline-block;
+  margin-left: 37px;
+}
+
 #intro {
   width: 100%;
   height: 100vh;
   background-size: cover;
   overflow: hidden;
   position: relative;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  height: 250px;
+  margin-bottom: -16px;
+  display: inline-block;
+  margin-left: 83px;
+  /* margin-right: 0px; */
+}
+
+@media (max-width: 1000px) {
+  img {
+    vertical-align: middle;
+    border-style: none;
+    height: 250px;
+    margin-bottom: -16px;
+    display: inline-block;
+    margin-left: 67px;
+    /* margin-right: 0px; */
+  }
 }
 
 #intro:before {
